@@ -26,7 +26,55 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+string,int,float,character;
+```
+#include <stdio.h>
+int main()
+{
+    printf("welcome to india");
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    float num;
+    scanf("%f",&num);
+    printf("%.2f",num);
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    int var1;
+    int var2;
+    scanf("%d",&var1);
+    scanf("%d",&var2);
+    int result = var1%var2;
+    printf("Remainder of %d and %d=%d",var1,var2,result);
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    int var;
+    scanf("%d",&var);
+    printf("Character of ASCII Value %d is %c",var,var);
+    return 0;
+}
+```
 # Output:
+
+<img width="1032" height="397" alt="image" src="https://github.com/user-attachments/assets/d501d1a0-8c93-48b2-9632-aa80aee6631d" />
+
+<img width="1300" height="450" alt="image" src="https://github.com/user-attachments/assets/236efab7-2f38-4607-bcfd-cffa37eecce9" />
+
+<img width="1212" height="432" alt="image" src="https://github.com/user-attachments/assets/7d03e8ae-7891-4050-b505-ed3015e15bb4" />
+
+<img width="1362" height="563" alt="image" src="https://github.com/user-attachments/assets/69375a95-c2d1-4e01-ae0e-212168c2b503" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -57,7 +105,23 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```
+#include <stdio.h>
+int main()
+{
+    float PI = 3.14159;
+    int Days = 7;
+
+    printf("%f",PI);
+    printf("%d",Days);
+
+    return 0;
+}
+```
 # Output:
+
+<img width="820" height="406" alt="image" src="https://github.com/user-attachments/assets/7355db1b-9af5-4feb-9801-c8e89e3f5d26" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -81,8 +145,57 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 5:    
    Stop
 # Program:
+```
+#include <stdio.h>
+int main()
+{
+    int var;
+    scanf("%d",&var);
+    printf("Character of ASCII Value %d is %c",var,var);
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    int var1;
+    int var2;
+    scanf("%d",&var1);
+    scanf("%d",&var2);
+    int result = var1%var2;
+    printf("Remainder of %d and %d=%d",var1,var2,result);
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    float num;
+    scanf("%f",&num);
+    printf("%.2f",num);
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    printf("welcome to india");
+    return 0;
+}
+```
 # Output:
+
+<img width="1300" height="450" alt="image" src="https://github.com/user-attachments/assets/52f9a950-5b1a-403a-b1b2-8a84617b4731" />
+
+<img width="1212" height="432" alt="image" src="https://github.com/user-attachments/assets/726b5c37-ee88-4595-a5ce-5fa81508cd23" />
+
+<img width="1363" height="564" alt="image" src="https://github.com/user-attachments/assets/02d2c0a1-b6c4-4ec9-b0b1-8dbe4331d931" />
+
+<img width="1032" height="397" alt="image" src="https://github.com/user-attachments/assets/f213c209-e162-4619-abcc-bde37ec98508" />
+
 # Result: 
+Thus, the program was implemented and executed successfully, and the required output was obtained.
+
 
 # 19AI304-Fundamentals-of-C-Programming-2025-Odd
 # IAPR-1- Module 1 - FoC
@@ -120,7 +233,88 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include <stdio.h>
+int main()
+{
+    int num1, num2,num3;
+    scanf("%d %d %d",&num1,&num2,&num3);
+    int sum = num1 + num2 + num3;
+    printf("Sum is:%d",sum);
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    int num1, num2;
+    scanf("%d %d",&num1,&num2);
+    int sum = num1 - num2;
+    printf("Sum is:%d",sum);
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    int num1, num2,num3;
+    scanf("%d %d %d",&num1,&num2,&num3);
+    int sum = num1 * num2 * num3;
+    printf("Sum is:%d",sum);
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    int num1, num2;
+    scanf("%d %d",&num1,&num2);
+    int sum = num1 / num2;
+    printf("Sum is:%d",sum);
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    int num1, num2;
+    scanf("%d %d",&num1,&num2,);
+    int sum = num1 & num2;
+    printf("Sum is:%d",sum);
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    int num1, num2;
+    scanf("%d %d",&num1,&num2);
+    int sum = num1 | num2;
+    printf("Sum is:%d",sum);
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    int num1, num2;
+    scanf("%d %d %d",&num1,&num2);
+    int sum = num1 >> num2 ;
+    printf("Sum is:%d",sum);
+    return 0;
+}
+
+```
 # Output:
+
+<img width="871" height="468" alt="image" src="https://github.com/user-attachments/assets/8db7a0e1-cfc2-4604-b20d-49d9957eafa5" />
+
+<img width="680" height="245" alt="image" src="https://github.com/user-attachments/assets/1ae85676-9892-45b8-ab4d-d4be5b389fa1" />
+
+<img width="700" height="273" alt="image" src="https://github.com/user-attachments/assets/d8eebe05-d72f-4606-8741-6976a7041191" />
+
+<img width="688" height="255" alt="image" src="https://github.com/user-attachments/assets/32564542-5286-4b0e-9171-324192657fd5" />
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
@@ -165,7 +359,64 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 8:   
   Stop
 # Program:
+```
+#include <stdio.h>
+int main()
+{
+    char array[100];
+    fgets (array,sizeof(array),stdin);
+    
+    for (int i = 0; array[i] !='\0'; i++)
+    {
+        if (array[i] >= 'a' && array[i] <= 'z')
+        {
+            printf("True");
+        }
+        else{
+            printf("False");
+        }
+    }
+}
+#include <stdio.h>
+int main()
+{
+    char array[100];
+    fgets (array,sizeof(array),stdin);
+    
+    for (int i = 0; array[i] !='\0'; i++)
+    {
+        if (array[i] >= '0' && array[i] <= '9')
+        {
+            printf("True");
+        }
+    }
+    return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+    char a;
+    scanf("%c,&a);
+    if (a == 'a' || a== 'i')
+    {  
+        printf("True");
+    }
+}
+  
+```
+
+
 # Output:
+
+
+<img width="705" height="117" alt="image" src="https://github.com/user-attachments/assets/589a4b27-a210-4c84-9e35-9355ad492284" />
+
+<img width="696" height="172" alt="image" src="https://github.com/user-attachments/assets/5864e820-70c7-4bf3-87cd-7d01ec3428aa" />
+
+<img width="697" height="312" alt="image" src="https://github.com/user-attachments/assets/597fab1a-90bf-4551-9ecf-004b114f7e46" />
+
+
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
 
